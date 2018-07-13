@@ -1,0 +1,2851 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4011454352</fileChecksum>
+  <configuration>
+    <name>Normal</name>
+    <outputs>
+      <file>$PROJ_DIR$\build\efr32\InitUart.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_CmdExec.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\halDelay.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Transmitter.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_CmdExec.o</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Receiver.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\InitUart.o</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Receiver.o</file>
+      <file>$PROJ_DIR$\build\efr32\MainApp.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Transmitter.o</file>
+      <file>$PROJ_DIR$\build\efr32\halDelay.o</file>
+      <file>$PROJ_DIR$\build\efr32\MainApp.o</file>
+      <file>$PROJ_DIR$\build\efr32\halDelay.i</file>
+      <file>$PROJ_DIR$\build\efr32\halDelay.lst</file>
+      <file>$PROJ_DIR$\build\efr32\MainApp.lst</file>
+      <file>$PROJ_DIR$\build\efr32\MainApp.i</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_CmdExec.i</file>
+      <file>$PROJ_DIR$\build\efr32\InitUart.i</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Receiver.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Source\IAR\startup_efr32mg1p.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\gpiointerrupt\src\gpiointerrupt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Source\system_efr32mg1p.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargetserial.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_stk.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\rtcdrv\src\rtcdriver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displaypalemlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\ustimer\src\ustimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\i2cspm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\dmd\display\dmd_display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displayls013b7dh03.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\udelay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_bcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\dmactrl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_core.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\libraries\phy-rail-efr32xg1-library-iar.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_stk_leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\display.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargetio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\bmp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_msc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_narrow_6x8.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_line.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_polygon.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_normal_8x8.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_circle.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_number_16x20.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_rectangle.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_bitmap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_string.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\hal\efr32\hal_efr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\hal\hal_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\command_interpreter\command_interpreter.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\graphics\graphics.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\memory_manager\buffer_pool_allocator.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\memory_manager\rail_integration.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\queue\circular_queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_ldma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rtcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\response_print\response_print.c</file>
+      <file>$PROJ_DIR$\app_ci\154_rx_ci.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_system.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_leuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rmu.c</file>
+      <file>$PROJ_DIR$\app_ci\timer_ci.c</file>
+      <file>$PROJ_DIR$\flex-callback-stubs.c</file>
+      <file>$PROJ_DIR$\app_ci\parameter_ci.c</file>
+      <file>$PROJ_DIR$\Thonv\Midware\HalDelay\halDelay.c</file>
+      <file>$PROJ_DIR$\app_ci\autoack_ci.c</file>
+      <file>$PROJ_DIR$\app_main.c</file>
+      <file>$PROJ_DIR$\app_ci\error_rate_ci.c</file>
+      <file>$PROJ_DIR$\app_trx.c</file>
+      <file>$PROJ_DIR$\app_ci\lbt_ci.c</file>
+      <file>$PROJ_DIR$\app_ci\debug_ci.c</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_CmdExec.c</file>
+      <file>$PROJ_DIR$\flex-callbacks.c</file>
+      <file>$PROJ_DIR$\Thonv\Driver\InitUart.c</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Receiver.c</file>
+      <file>$PROJ_DIR$\app_ci\trx_ci.c</file>
+      <file>$PROJ_DIR$\app_modes.c</file>
+      <file>$PROJ_DIR$\Thonv\App\MainApp.c</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Transmitter.c</file>
+      <file>$PROJ_DIR$\app_ci\address_filter_ci.c</file>
+      <file>$PROJ_DIR$\app_ci\ble_ci.c</file>
+      <file>$PROJ_DIR$\app_ci\packet_ci.c</file>
+      <file>$PROJ_DIR$\app_ci\info_ci.c</file>
+      <file>$PROJ_DIR$\flex-bookkeeping.c</file>
+      <file>$PROJ_DIR$\rail_config.c</file>
+      <file>$PROJ_DIR$\flex-events.c</file>
+      <file>$PROJ_DIR$\app_hal.c</file>
+      <file>$PROJ_DIR$\mode_helpers.c</file>
+      <file>$PROJ_DIR$\build\efr32\retargetserial.o</file>
+      <file>$PROJ_DIR$\build\efr32\startup_efr32mg1p.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_acmp.h</file>
+      <file>$PROJ_DIR$\build\efr32\udelay.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p232f256gm48.h</file>
+      <file>$PROJ_DIR$\build\efr32\rail_config.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_fpueh.h</file>
+      <file>$PROJ_DIR$\build\efr32\154_rx_ci.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\build\efr32\trx_ci.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_devinfo.h</file>
+      <file>$PROJ_DIR$\build\efr32\parameter_ci.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_letimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_usart.h</file>
+      <file>$PROJ_DIR$\build\efr32\app_modes.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\buffer_pool_allocator.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\dmd_display.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_main.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\display.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_cryotimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpio_p.h</file>
+      <file>$PROJ_DIR$\build\efr32\timer_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\system_efr32mg1p.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpio.h</file>
+      <file>$PROJ_DIR$\build\efr32\address_filter_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\response_print.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_ldma.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\rtcdriver.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\build\efr32\ustimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rmu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\em_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs_signals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\system_efr32mg1p.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_number_16x20.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\command_interpreter.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_hal.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_bcc.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callbacks.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\gpiointerrupt.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\retargetio.o</file>
+      <file>$PROJ_DIR$\build\efr32\rail_integration.o</file>
+      <file>$PROJ_DIR$\build\efr32\circular_queue.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\autoack_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\bmp.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\packet_ci.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_timer.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\debug_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_core.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\displaypalemlib.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\displayls013b7dh03.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_narrow_6x8.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_assert.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_i2c.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_trx.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk_leds.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\dmactrl.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_ldma.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\ble_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_usart.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callback-stubs.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_gpio.lst</file>
+      <file>$PROJ_DIR$\build\efr32\rail_integration.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_bitmap.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\flex-events.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_system.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_polygon.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\build\efr32\glib_rectangle.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_leuart.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_normal_8x8.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_rectangle.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\error_rate_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_line.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\ustimer.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\i2cspm.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_narrow_6x8.i</file>
+      <file>$PROJ_DIR$\build\efr32\flex-bookkeeping.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\hal_common.pbi</file>
+      <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_narrow_6x8.o</file>
+      <file>$PROJ_DIR$\build\efr32\retargetio.i</file>
+      <file>$PROJ_DIR$\build\efr32\glib_line.o</file>
+      <file>$PROJ_DIR$\build\efr32\graphics.i</file>
+      <file>$PROJ_DIR$\build\efr32\i2cspm.o</file>
+      <file>$PROJ_DIR$\build\efr32\gpiointerrupt.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\chip\efr32\rf\common\cortex\pti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\config\ustimer_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_polygon.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_msc.o</file>
+      <file>$PROJ_DIR$\build\efr32\hal_common.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib_circle.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\endian.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_gpio.o</file>
+      <file>$PROJ_DIR$\build\efr32\error_rate_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_system.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_dmareq.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_system.lst</file>
+      <file>$PROJ_DIR$\build\efr32\autoack_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\hal_efr.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_assert.i</file>
+      <file>$PROJ_DIR$\build\efr32\ustimer.lst</file>
+      <file>$PROJ_DIR$\build\efr32\mode_helpers.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib_bitmap.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc_ret.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtcc.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\autoack_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_usart.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_romtable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_number_16x20.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_timer.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_assert.lst</file>
+      <file>$PROJ_DIR$\build\efr32\flex-bookkeeping.o</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk.lst</file>
+      <file>$PROJ_DIR$\build\efr32\gpiointerrupt.lst</file>
+      <file>$PROJ_DIR$\build\efr32\trx_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\app_main.lst</file>
+      <file>$PROJ_DIR$\build\efr32\lbt_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\rail_integration.lst</file>
+      <file>$PROJ_DIR$\build\efr32\response_print.lst</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\i2cspm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_adc.h</file>
+      <file>$PROJ_DIR$\build\efr32\railtest_efr32.log</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_bcc.i</file>
+      <file>$PROJ_DIR$\build\efr32\startup_efr32mg1p.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\common\rail.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_gpio.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\build\efr32\response_print.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_emu.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_system.i</file>
+      <file>$PROJ_DIR$\build\efr32\lbt_ci.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\build\efr32\gpiointerrupt.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\graphics\displayconfigapp.h</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_rmu.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_wdog_pch.h</file>
+      <file>$PROJ_DIR$\build\efr32\flex-events.i</file>
+      <file>$PROJ_DIR$\build\efr32\i2cspm.i</file>
+      <file>$PROJ_DIR$\build\efr32\railtest_efr32.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargettextdisplay.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\i2cspmconfig.h</file>
+      <file>$PROJ_DIR$\flex-configuration.h</file>
+      <file>$PROJ_DIR$\flex-debug-print.h</file>
+      <file>$PROJ_DIR$\build\efr32\ustimer.i</file>
+      <file>$PROJ_DIR$\build\efr32\trx_ci.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\dmd\dmd.h</file>
+      <file>$PROJ_DIR$\build\efr32\dmd_display.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtcc.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_pcnt.h</file>
+      <file>$PROJ_DIR$\build\efr32\graphics.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_usart.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_number_16x20.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_bcc.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\protocol\ieee802154\rail_ieee802154.h</file>
+      <file>$PROJ_DIR$\build\efr32\buffer_pool_allocator.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\response_print\response_print.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\ustimer\inc\ustimer.h</file>
+      <file>$PROJ_DIR$\build\efr32\rail_integration.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\flash.h</file>
+      <file>$PROJ_DIR$\app_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\textdisplay.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\build\efr32\i2cspm.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_idac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_bus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\build\efr32\parameter_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\dmd_display.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_color.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\common\rail_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\queue\circular_queue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\app_trx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_ramfunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\common\rail_assert_error_codes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_core.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargetserial.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\retargetserialconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_rmu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\hal\hal_common.h</file>
+      <file>$PROJ_DIR$\rail_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\em_types.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_ldma.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\command_interpreter\command_interpreter.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_bcp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\graphics\graphics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_ldma.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_narrow_6x8.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\adc\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\bspconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\symbol-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_timer.h</file>
+      <file>$PROJ_DIR$\build\efr32\system_efr32mg1p.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\buzzer\buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_common.h</file>
+      <file>$PROJ_DIR$\build\efr32\retargetserial.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\chip\efr32\rf\common\cortex\pa.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\hal-config\hal-config-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\pta.h</file>
+      <file>$PROJ_DIR$\build\efr32\retargetserial.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\led.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\build\efr32\mode_helpers.i</file>
+      <file>$PROJ_DIR$\build\efr32\hal_efr.lst</file>
+      <file>$PROJ_DIR$\Thonv\Driver\InitUartConfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\dmactrl.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_core.i</file>
+      <file>$PROJ_DIR$\build\efr32\command_interpreter.i</file>
+      <file>$PROJ_DIR$\Thonv\Driver\InitUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\bootloader-eeprom.h</file>
+      <file>$PROJ_DIR$\build\efr32\retargetio.lst</file>
+      <file>$PROJ_DIR$\build\efr32\rail_config.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\bootloader-interface-standalone.h</file>
+      <file>$PROJ_DIR$\build\efr32\dmactrl.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\memory_manager\buffer_pool_allocator.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\bootloader-interface-app.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\button.h</file>
+      <file>$PROJ_DIR$\build\efr32\circular_queue.i</file>
+      <file>$PROJ_DIR$\build\efr32\rail_config.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\bootloader-interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\antenna\antenna.h</file>
+      <file>$PROJ_DIR$\build\efr32\command_interpreter.lst</file>
+      <file>$PROJ_DIR$\build\efr32\app_modes.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\spi.h</file>
+      <file>$PROJ_DIR$\build\efr32\mode_helpers.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\mfg-token.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\brd4151a.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\chip\efr32\rail_chip_specific.h</file>
+      <file>$PROJ_DIR$\build\efr32\dmactrl.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displayconfigall.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\displaypalconfig.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_string.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displayls013b7dh03.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\hal-config\flex-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\system-timer.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib.i</file>
+      <file>$PROJ_DIR$\build\efr32\parameter_ci.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\token.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_ldma.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_timer.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\displayls013b7dh03config.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_rectangle.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\random.h</file>
+      <file>$PROJ_DIR$\build\efr32\system_efr32mg1p.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\token-manufacturing.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_line.i</file>
+      <file>$PROJ_DIR$\build\efr32\flex-events.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_msc.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib_polygon.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\micro.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_rmu.lst</file>
+      <file>$PROJ_DIR$\build\efr32\packet_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\circular_queue.lst</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk_leds.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\micro.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\sim-eeprom\sim-eeprom.h</file>
+      <file>$PROJ_DIR$\build\efr32\info_ci.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_mpu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\compiler\interrupts-efm32.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_i2c.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_line.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\emstatus.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtcc.lst</file>
+      <file>$PROJ_DIR$\build\efr32\app_modes.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\config\token-stack.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displaybackend.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\token.h</file>
+      <file>$PROJ_DIR$\build\efr32\app_main.i</file>
+      <file>$PROJ_DIR$\build\efr32\glib_string.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtc.i</file>
+      <file>$PROJ_DIR$\build\efr32\udelay.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\sim-eeprom\sim-eeprom-size.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_rectangle.i</file>
+      <file>$PROJ_DIR$\build\efr32\info_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\udelay.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_timer.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\error-def.h</file>
+      <file>$PROJ_DIR$\build\efr32\buffer_pool_allocator.i</file>
+      <file>$PROJ_DIR$\build\efr32\packet_ci.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\regs.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_i2c.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\ember-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\memory-buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\EFR32MG1_BRD4151A\config\displayconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\hal.h</file>
+      <file>$PROJ_DIR$\build\efr32\flex-bookkeeping.lst</file>
+      <file>$PROJ_DIR$\build\efr32\hal_efr.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\reset-def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\micro-common.h</file>
+      <file>$PROJ_DIR$\build\efr32\display.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\nvic-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\config\emlib_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_i2c.lst</file>
+      <file>$PROJ_DIR$\app_ci.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_bitmap.lst</file>
+      <file>$PROJ_DIR$\build\efr32\hal_common.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\micro-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\display.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_bitmap.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displaypal.h</file>
+      <file>$PROJ_DIR$\build\efr32\timer_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\hal_common.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\generic\em2xx-reset-defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\compiler\iar.h</file>
+      <file>$PROJ_DIR$\build\efr32\flex-bookkeeping.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\memmap-fat.h</file>
+      <file>$PROJ_DIR$\build\efr32\displayls013b7dh03.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\displayconfigapp.h</file>
+      <file>$PROJ_DIR$\build\efr32\displayls013b7dh03.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_core.lst</file>
+      <file>$PROJ_DIR$\build\efr32\display.i</file>
+      <file>$PROJ_DIR$\build\efr32\response_print.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\plugin\sim-eeprom\sim-eeprom-cortexm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\ember.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_emu.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\displaypalemlib.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\efr32\nvic-config-series1-config1.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\stack-info.h</file>
+      <file>$PROJ_DIR$\build\efr32\address_filter_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk_leds.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\micro-features.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_polygon.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\memmap-tables.h</file>
+      <file>$PROJ_DIR$\build\efr32\rail_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_ldma_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\config\ember-configuration-defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\message.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\network-management.h</file>
+      <file>$PROJ_DIR$\build\efr32\timer_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\bmp.lst</file>
+      <file>$PROJ_DIR$\build\efr32\timer_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_hal.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\micro-features.h</file>
+      <file>$PROJ_DIR$\build\efr32\udelay.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\generic\compiler\platform-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\byte-utilities.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtc.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\common\inc\ecode.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\ember-debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\protocol\flex_1.2\connect\plugins\stack\include\event.h</file>
+      <file>$PROJ_DIR$\build\efr32\rtcdriver.i</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callback-stubs.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_msc.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\graphics.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_circle.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib.lst</file>
+      <file>$PROJ_DIR$\build\efr32\railtest_efr32.s37</file>
+      <file>$PROJ_DIR$\build\efr32\parameter_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_trx.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\bmp_conf.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_cmu.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_msc.h</file>
+      <file>$PROJ_DIR$\build\efr32\rtcdriver.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\retargetio.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\hal_efr.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_hal.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_normal_8x8.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\sleep\inc\sleep.h</file>
+      <file>$PROJ_DIR$\build\efr32\system_efr32mg1p.o</file>
+      <file>$PROJ_DIR$\build\efr32\retargetserial.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_hal.lst</file>
+      <file>$PROJ_DIR$\build\efr32\info_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\lbt_ci.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\packet_ci.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\bmp.h</file>
+      <file>$PROJ_DIR$\build\efr32\railtest_efr32.pbd</file>
+      <file>$PROJ_DIR$\build\efr32\mode_helpers.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\glib_string.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\app_trx.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_leuart.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib_circle.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\address_filter_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callback-stubs.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\rtcdrv\inc\rtcdriver.h</file>
+      <file>$PROJ_DIR$\build\efr32\buffer_pool_allocator.o</file>
+      <file>$PROJ_DIR$\build\efr32\154_rx_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk.o</file>
+      <file>$PROJ_DIR$\build\efr32\rtcdriver.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_leuart.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_ldma.o</file>
+      <file>$PROJ_DIR$\build\efr32\railtest_efr32.out</file>
+      <file>$PROJ_DIR$\build\efr32\glib_circle.i</file>
+      <file>$PROJ_DIR$\build\efr32\circular_queue.o</file>
+      <file>$PROJ_DIR$\build\efr32\debug_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_i2c.o</file>
+      <file>$PROJ_DIR$\build\efr32\lbt_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_cmu.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtc.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_assert.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_rmu.pbi</file>
+      <file>$PROJ_DIR$\build\efr32\em_core.o</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callbacks.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_msc.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_leuart.i</file>
+      <file>$PROJ_DIR$\build\efr32\displayls013b7dh03.o</file>
+      <file>$PROJ_DIR$\build\efr32\address_filter_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\em_cmu.lst</file>
+      <file>$PROJ_DIR$\build\efr32\app_main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\efm32\config\rtcdrv_config.h</file>
+      <file>$PROJ_DIR$\build\efr32\bmp.i</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callback-stubs.i</file>
+      <file>$PROJ_DIR$\build\efr32\trx_ci.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\udelay.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_rmu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\diagnostic.h</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk_leds.o</file>
+      <file>$PROJ_DIR$\build\efr32\bmp.o</file>
+      <file>$PROJ_DIR$\build\efr32\flex-events.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_af_pins.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_emu.o</file>
+      <file>$PROJ_DIR$\build\efr32\displaypalemlib.i</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_bcc.o</file>
+      <file>$PROJ_DIR$\build\efr32\command_interpreter.o</file>
+      <file>$PROJ_DIR$\build\efr32\ble_ci.i</file>
+      <file>$PROJ_DIR$\build\efr32\error_rate_ci.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_wdog.h</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callbacks.i</file>
+      <file>$PROJ_DIR$\build\efr32\app_trx.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\common\bootloader-ccm.h</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callbacks.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_normal_8x8.i</file>
+      <file>$PROJ_DIR$\build\efr32\autoack_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\error_rate_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\display.o</file>
+      <file>$PROJ_DIR$\build\efr32\app_modes.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_emu.lst</file>
+      <file>$PROJ_DIR$\build\efr32\info_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\dmd_display.o</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtc.o</file>
+      <file>$PROJ_DIR$\build\efr32\displaypalemlib.o</file>
+      <file>$PROJ_DIR$\build\efr32\ble_ci.o</file>
+      <file>$PROJ_DIR$\build\efr32\dmactrl.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\protocol\ble\rail_ble.h</file>
+      <file>$PROJ_DIR$\build\efr32\glib_string.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpcrc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\crc.h</file>
+      <file>$PROJ_DIR$\build\efr32\debug_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_normal_8x8.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\bootloader\fib-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\common\bootloader-common.h</file>
+      <file>$PROJ_DIR$\build\efr32\em_usart.o</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_number_16x20.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_crypto.h</file>
+      <file>$PROJ_DIR$\build\efr32\154_rx_ci.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_rtcc.h</file>
+      <file>$PROJ_DIR$\build\efr32\ble_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtcc.o</file>
+      <file>$PROJ_DIR$\build\efr32\154_rx_ci.lst</file>
+      <file>$PROJ_DIR$\build\efr32\debug_ci.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc_cc.h</file>
+      <file>$PROJ_DIR$\build\efr32\graphics.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\base\hal\micro\cortexm3\common\ebl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_leuart.h</file>
+      <file>$PROJ_DIR$\build\efr32\InitUart.lst</file>
+      <file>$PROJ_DIR$\build\efr32\ble_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\app_hal.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\autoack_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\buffer_pool_allocator.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\bmp.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\154_rx_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\debug_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\display.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_bcc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\address_filter_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\command_interpreter.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\system_efr32mg1p.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\app_main.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\displayls013b7dh03.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\dmactrl.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\app_modes.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\dmd_display.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\displaypalemlib.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_assert.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_cmu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\circular_queue.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_core.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_emu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk_leds.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\app_trx.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\bsp_stk.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_leuart.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_ldma.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\i2cspm.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_msc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_narrow_6x8.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_number_16x20.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\gpiointerrupt.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\InitUart.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\halDelay.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\flex-events.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_line.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callbacks.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\error_rate_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_circle.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\lbt_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_rmu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\flex-callback-stubs.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\flex-bookkeeping.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\graphics.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\hal_common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_bitmap.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_system.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\info_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\MainApp.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_font_normal_8x8.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_rectangle.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_rtcc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_polygon.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\em_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\glib_string.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\hal_efr.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\packet_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\timer_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Receiver.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\parameter_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\rail_config.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_CmdExec.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Transmitter.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\retargetio.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\ustimer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\trx_ci.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\rtcdriver.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\response_print.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\rail_integration.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\retargetserial.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\mode_helpers.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\udelay.__cstat.et</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Transmitter.lst</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_CmdExec.lst</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Transmitter.i</file>
+      <file>$PROJ_DIR$\Thonv\Midware\HalDelay\halDelay.h</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Transmitter.h</file>
+      <file>$PROJ_DIR$\Thonv\App\AppCallback.h</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Receiver.h</file>
+      <file>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_CmdExec.h</file>
+      <file>$PROJ_DIR$\build\efr32\Uart_Receiver.lst</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 528 264 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Source\IAR\startup_efr32mg1p.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 100 245</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\gpiointerrupt\src\gpiointerrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257 234 202</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 642</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 142 133 123 130 115 333 281 158 127 139 101 111 144 134 116 282 246 605 593 588 583 606 580 602 563 556 138 205 137 109 141 308 296 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 296 281 308 333 282</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 497 544 534</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 627</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276 103 215 329 107 261 255 228 286 246 281 143 106 117 295 227 601 144 266 498 104 113 124 469 140 114 242 223 175 256 600 138 141 435 296 317 333 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 317 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 281 296 266 278 435 498 329 333</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\Device\SiliconLabs\EFR32MG1P\Source\system_efr32mg1p.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 331 384 506</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 619</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 593 580 583 563 556 205 600 601 605 588 606 602 138 144 158 136 127 130 139 123 101 115 111 142 133 141 137 134 116 109 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargetserial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334 338 99</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 683</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601 242 600 144 124 140 175 256 138 296 267 104 113 469 114 223 326 317 312 143 103 106 107 117 276 295 261 227 215 255 228 286 246 141 308 309 460 278 137 134 116 109 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 340 281 333 310 297 300 321</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 308 333 267 309 310 297 326 321 300 460</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_stk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 259 233 524</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 635</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 580 246 593 141 583 563 556 205 281 138 297 278 134 116 601 605 588 606 602 300 317 144 304 137 109 158 136 127 130 139 123 101 115 111 142 133 267 600 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 321 293 296 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 267 297 326 321 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\rtcdrv\src\rtcdriver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 487 525 132</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 680</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 296 246 304 130 109 136 123 142 373 308 505 144 137 158 127 139 101 111 133 317 521 278 134 116 601 605 593 588 583 606 580 602 563 556 138 205 141 281 333 595 600 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 546 293 482 366 336 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 333 308 595 521 482 546 366 336 267 373 505</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displaypalemlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 558 459 577</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 625</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 601 144 127 101 321 300 278 158 139 111 381 293 443 109 136 130 123 115 142 133 340 317 550 134 116 605 593 588 583 606 580 602 563 556 138 205 246 451 316 141 267 297 369 600 312 304 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 281 296 426 403 326 370 372 318</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 246 340 278 312 316 293 304 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 281 296 267 300 297 326 321 550 369 370 426 451 381 372 403 318 443</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emdrv\ustimer\src\ustimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271 220 135</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 678</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 255 261 228 286 103 276 215 498 143 106 117 295 227 601 144 141 333 330 104 113 124 469 140 114 242 223 175 256 600 138 296 204 317 308 288 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 246 281 482</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333 317 281 296 498 308 330 288 482 204</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\i2cspm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263 294 201</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 638</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286 255 107 261 228 144 103 276 215 241 600 601 281 143 106 117 295 227 267 278 104 113 124 469 140 114 242 223 175 256 138 268 317 137 134 116 109 141 246 296 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 401 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266 144 601 137 116 109 134 600 278 317 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 281 296 267 268 241 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\dmd\display\dmd_display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 274 575</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 624</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 138 441 134 116 601 304 370 372 451 246 137 109 278 316 293 273 600 369 403 318 426 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 316 278 246 293 304 441 403 318 369 370 426 451 381 372 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\displayls013b7dh03.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 450 452 542</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 621</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 583 556 451 563 205 403 408 601 304 593 580 293 600 312 278 144 605 588 606 602 138 369 340 281 158 136 127 130 139 123 101 115 111 142 133 426 316 267 443 372 137 134 116 109 141 296 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 381 370 318 441</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 246 340 278 312 316 293 304 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 369 370 426 451 381 372 403 318 443 408 441</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219 231 536</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 626</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\udelay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 478</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 413 417 102</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 685</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 606 138 109 605 588 602 296 593 583 580 563 556 205 137 144 308 550 158 136 127 130 139 123 101 115 111 142 134 116 133 141 317 595 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 246 281 333</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 308 333 595 550</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_bcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 244 283 559</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 616</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 600 601 144 227 143 246 117 141 106 295 286 281 138 297 103 107 276 261 215 255 228 300 317 104 113 124 469 140 114 242 223 175 256 267 278 304 137 134 116 109 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 321 293 296 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 267 297 326 321 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\dmactrl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 352 368 579</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 622</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 136 142 133 130 115 158 127 139 101 111 144 134 116 344 605 593 588 583 606 580 602 563 556 138 205 137 109 333 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 246 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333 246 344</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345 453 538</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 629</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 255 261 228 286 103 276 215 143 106 117 295 227 601 144 141 333 104 113 124 469 140 114 242 223 175 256 600 138 281 246 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 308 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333 246 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\bsp\bsp_stk_leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 395 464 553</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 631</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 605 246 606 138 109 141 588 602 281 593 583 580 563 556 205 137 144 300 267 158 136 127 130 139 123 101 115 111 142 134 116 133 317 297 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 321 296 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 267 297 326 321 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 454 432 571</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 615</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 451 441 137 144 278 403 293 134 116 304 426 318 246 369 408 601 600 381 138 370 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 246 293 278 304 369 370 426 451 381 372 403 318 441 408</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\retargetio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 501</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198 349 151</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 677</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601 278 134 600 138 137 206 144 116 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206 278 144 601 137 116 109 134 600 138</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\bmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 547 474 554</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 612</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316 144 318 278 138 496 601 134 600 512 137 116 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 512 316 144 601 137 116 109 134 600 278 138 318 496</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 375 492 184</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 655</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 593 580 600 601 138 583 563 556 205 134 605 588 606 602 141 144 158 136 127 130 139 123 101 115 111 142 133 316 318 315 137 116 109 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 273 246 301 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 318 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 315 246 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248 176 212</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 632</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 144 295 601 143 117 227 286 103 107 276 261 215 255 228 141 296 104 113 124 469 140 114 242 223 175 256 600 138 246 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 296 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_msc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 489</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 540 389 208</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 639</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 175 600 601 140 141 124 242 281 246 104 113 469 114 223 144 138 306 143 103 106 107 117 276 295 261 227 215 255 228 286 329 296 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 499</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 499 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 296 306 329 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 535</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 412 481 576</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 664</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 563 137 205 583 556 593 580 605 588 606 602 138 109 141 158 136 127 130 139 123 101 115 111 142 134 116 133 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 377</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 377 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_narrow_6x8.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193 324 197</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 640</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 134 316 137 601 138 315 600 273 116 109 246 301 318 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 315 246 316 278 301 273 318</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_line.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 386 402 199</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 646</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 144 278 601 138 109 316 318 134 116 273 246 315 600 301</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 246 318 315 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_polygon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 466 390 207</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 666</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 601 138 137 315 144 316 318 600 273 116 109 246 301 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 318 315 246 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_normal_8x8.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 504</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568 587 186</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 662</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 134 316 137 601 138 315 600 273 116 109 246 301 318 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 315 246 316 278 301 273 318</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 380 418 230</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 650</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295 601 106 144 143 117 227 286 103 107 276 261 215 255 228 141 281 104 113 124 469 140 114 242 223 175 256 600 138 246 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 330</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 330 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_circle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 518</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 529 491 210</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 649</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601 144 134 138 315 316 318 137 600 273 116 109 246 301 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 318 315 246 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_font_number_16x20.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280 229 592</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 641</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 134 316 137 601 138 315 600 273 116 109 246 301 318 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 315 246 316 278 301 273 318</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_rectangle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 415 382 183</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 663</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 600 601 138 134 273 315 318 144 316 137 116 109 246 301 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 318 315 246 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_bitmap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 442 438 222</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 658</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601 144 134 138 315 316 318 137 600 273 116 109 246 301 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 318 315 246 316 278 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\middleware\glib\glib\glib_string.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 515</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 411 371 582</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 668</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 315 601 278 316 246 600 304 138 273 293 318 301 137 134 116 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 293 278 304 246 318 315 316 301 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\hal\efr32\hal_efr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 502</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 429 342 218</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 669</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 605 606 138 335 134 116 601 588 602 270 498 593 583 580 563 556 205 141 246 267 333 328 313 137 109 312 158 136 127 130 139 123 101 115 111 142 133 296 266 340 317 297 203 314 600 278 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 326 281 269 300 321 329 302 367 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 340 278 312 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 498 297 326 321 300 328 329 267 203 335 314 302 266 367 313 308 333 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 573 557</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 630</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 140 144 134 138 175 256 246 124 242 317 104 113 469 114 223 333 137 109 296 143 103 106 107 117 276 295 261 227 215 255 228 601 286 498 329 281 600 141 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 435</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 435 144 601 137 116 109 134 600 498 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 296 317 281 329 333</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\radio\rail_lib\hal\hal_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 445 439 209</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 657</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 588 141 109 602 269 605 606 138 270 246 137 144 593 583 580 563 556 205 317 267 134 116 158 136 127 130 139 123 101 115 111 142 133 296 367 281 302 308 601 600 333 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 278 313 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 313 138 144 601 137 116 109 134 600 246 308 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333 267 296 281 269 270 302 266 278 367 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226 279 591</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 667</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 175 600 601 140 124 242 296 104 113 469 114 223 144 138 246 141 143 103 106 107 117 276 295 261 227 215 255 228 286 317 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 300 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 317 281 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\command_interpreter\command_interpreter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 346 360 560</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 618</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 144 134 270 388 109 601 138 278 116 316 293 320 269 312 600 304 340 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 316 138 293 304 388 320 246 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\graphics\graphics.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 490</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200 277 603</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 656</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 246 441 138 601 144 318 278 315 265 600 301 134 369 403 273 292 293 137 116 109 316 370 372 451 322 426 381 304 312</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322 138 144 601 137 116 109 134 600 246 315 316 278 301 273 318 441 403 369 370 426 258 381 372 292 265 293 304 340 312</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\memory_manager\buffer_pool_allocator.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 420 285 522</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 611</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 580 593 600 601 144 583 563 556 205 270 269 278 141 605 588 606 602 138 308 246 158 136 127 130 139 123 101 115 111 142 133 353 134 137 116 109 333 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 316 144 601 137 116 109 134 600 278 353 138 308 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333 246 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\memory_manager\rail_integration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289 238 152</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 682</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 600 601 138 246 353 144 302 247 137 134 116 109 367 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 144 601 137 116 109 134 600 247 246 302 266 278 367 353</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\queue\circular_queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 356 394 530</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 628</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 563 205 109 583 556 601 593 580 246 137 144 141 605 588 606 602 138 308 134 116 158 136 127 130 139 123 101 115 111 142 133 303 278 600 269 270 333 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 316 144 601 137 116 109 134 600 278 303 138 246 269 270 308 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 333</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_ldma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 319 379 527</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 637</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 144 127 158 139 111 134 116 246 281 136 130 123 115 142 133 278 333 317 141 605 593 588 583 606 580 602 563 556 138 205 137 109 266 296 308 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 266 278 281 296 317 308 333</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rtcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 404 597</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 665</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 563 144 205 583 556 593 580 605 588 606 602 138 109 246 158 136 127 130 139 123 101 115 111 142 134 116 133 141 296 281 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 595</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 595 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 281 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\util\silicon_labs\silabs_core\response_print\response_print.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 455</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 251 239 129</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 681</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 246 278 109 601 270 249 138 116 316 293 287 269 312 137 134 600 304 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 316 138 293 304 287 246 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\154_rx_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 594 598 523</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 613</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 114 278 134 246 144 104 113 601 267 469 223 138 270 247 266 124 140 242 175 256 320 291 137 109 141 296 143 103 106 107 117 276 295 261 227 215 255 228 286 293 287 284 312 600 304 249 302 367 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 320 138 246 287 247 302 266 367 284 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 253 216 214</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 659</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 602 588 605 606 138 109 593 583 580 563 556 205 137 144 601 266 246 158 136 127 130 139 123 101 115 111 142 134 116 133 281 141 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 600 286 329 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329 246 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 281 266 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 423 436 532</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 634</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 139 116 158 111 127 101 144 296 136 130 123 115 142 133 435 246 605 593 588 583 606 580 602 563 556 138 205 137 109 317 281 141 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 401</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 401 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 317 281 296 435</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_leuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 526</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 541 517 185</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 636</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205 563 137 144 583 556 593 580 281 605 588 606 602 138 109 246 158 136 127 130 139 123 101 115 111 142 134 116 133 141 317 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 296 460</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 460 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 317 281 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\src\em_rmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 537</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 392 551</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 652</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 144 246 104 113 138 469 223 141 498 124 140 242 175 256 600 601 143 103 106 107 117 276 295 261 227 215 255 228 286 333 296 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 137 134 116 109 133 311</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 281 246 333 498 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\timer_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 475</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 473 444 125</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 671</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 276 286 103 215 144 107 261 255 228 138 269 270 287 601 600 304 321 141 143 106 117 295 227 367 297 247 312 278 326 104 113 124 469 140 114 242 223 175 256 293 320 302 291 137 134 116 109 300 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 266 303 281 340 249 267 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 297 246 326 321 138 300 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 320 287 302 266 367 247 291 267 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flex-callback-stubs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 548 520 488</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 653</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 115 246 601 130 486 284 144 136 123 142 302 457 422 158 127 139 101 111 470 266 269 247 249 600 605 593 588 583 606 580 602 563 556 138 205 308 141 485 293 465 400 479 278 137 134 116 109 304 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 407 462 447 477 333 270 424 425 472 471 480 419 367</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 269 270 457 424 470 407 419 425 486 472 462 471 485 480 247 302 367 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\parameter_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 494</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 298 376 112</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 673</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 246 109 138 367 104 113 304 267 469 223 144 302 137 249 124 140 242 175 256 270 287 314 278 134 116 601 266 141 296 143 103 106 107 117 276 295 261 227 215 255 228 286 320 247 291 600 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 314</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\Midware\HalDelay\halDelay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 13 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 644</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227 143 422 144 117 286 133 137 106 295 246 278 109 304 103 107 276 261 215 255 228 141 424 249 134 116 104 113 124 469 140 114 242 223 175 256 138 374 689 266 293 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 477 333 270 447 308 470 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 374 424 470 269 270 689</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\autoack_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217 225 569</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 610</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255 601 138 107 600 304 141 261 228 144 302 103 276 215 286 247 246 278 266 296 143 106 117 295 227 270 320 437 312 249 367 267 104 113 124 469 140 114 242 223 175 256 293 287 291 137 134 116 109 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 437</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 410 236 545</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 620</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 266 329 276 300 303 137 134 601 103 215 270 328 305 138 107 261 255 228 286 284 282 269 109 246 143 106 117 295 227 281 141 302 293 367 311 287 691 437 278 116 296 104 113 124 469 140 114 242 223 175 256 316 247 307 308 309 320 353 314 291 312 600 304 267 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 310 297 321 340 133 333 326 249</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 316 293 304 247 138 246 302 266 367 284 307 328 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 329 267 296 281 308 333 311 309 310 297 326 321 300 282 320 287 353 303 269 270 314 691 437 291 305</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\error_rate_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 562 213 570</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 648</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 242 141 138 124 144 140 175 256 437 600 601 267 104 113 469 114 223 247 308 266 296 143 103 106 107 117 276 295 261 227 215 255 228 286 269 287 291 305 203 137 134 116 109 249 302 367 278 303 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 320 270 333</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 320 138 144 601 137 116 109 134 600 246 287 247 302 266 278 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 437 305 308 333 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_trx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 516 495 565</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 633</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 600 601 278 106 367 295 291 246 296 143 117 227 302 144 266 269 141 103 107 276 261 215 255 228 293 303 312 304 138 267 104 113 124 469 140 114 242 223 175 256 133 316 247 353 437 581 137 134 116 109 270 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 340 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 316 293 304 247 138 246 302 266 367 353 303 269 270 437 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 581</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\lbt_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 510</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237 254 533</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 651</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 140 137 144 175 256 138 124 242 270 291 304 109 246 367 267 104 113 469 114 223 287 278 134 116 601 302 266 141 296 143 103 106 107 117 276 295 261 227 215 255 228 286 320 247 600 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\debug_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 586 531</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 614</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 142 246 136 326 123 144 266 138 305 130 115 133 278 303 287 137 158 127 139 101 111 270 297 247 317 134 116 601 300 605 593 588 583 606 580 602 563 556 205 302 269 281 293 320 291 313 267 312 600 304 321 141 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 367 333 340 249 296 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 297 246 326 321 138 300 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 320 287 302 266 367 247 291 267 296 281 303 269 270 305 313 308 333 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_CmdExec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 687 4</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 675</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 605 465 601 606 138 266 479 600 588 602 293 144 593 583 580 563 556 205 308 141 690 400 158 136 127 130 139 123 101 115 111 142 133 689 693 249 246 422 278 137 134 116 109 304 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 447 477 333</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 689 690 693</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flex-callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 564 567 539</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 647</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 115 246 601 130 486 284 144 136 123 142 302 457 422 158 127 139 101 111 470 266 269 247 249 600 605 593 588 583 606 580 602 563 556 138 205 308 141 485 293 465 400 479 278 137 134 116 109 304 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 407 462 447 477 333 270 424 425 472 471 480 419 367</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 269 270 457 424 470 407 419 425 486 472 462 471 485 480 247 302 367 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\Driver\InitUart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 607 6</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 643</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 134 116 101 144 601 127 300 158 139 111 133 138 267 136 130 123 115 142 281 317 343 137 109 605 593 588 583 606 580 602 563 556 205 141 297 246 308 347 312 600 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 333 321 340 296 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 141 104 158 138 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 317 246 281 296 308 333 267 347 343 297 326 321 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Receiver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 694 7</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 672</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 249 144 469 134 116 223 104 113 114 138 124 140 242 175 256 308 141 693 133 246 422 137 109 304 143 103 106 107 117 276 295 261 227 215 255 228 286 347 692 266 293 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 343 326 447 477 333 297 300 321</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 347 343 297 326 321 300 693 692</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\trx_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 549</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 272 110</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 679</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310 117 144 309 134 116 246 296 143 227 278 266 106 295 286 312 138 291 340 601 302 141 103 107 276 261 215 255 228 300 287 498 304 137 109 249 367 267 104 113 124 469 140 114 242 223 175 256 270 320 247 308 600 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 297 321 293 333 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 340 312 498 308 333 309 310 297 326 321 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_modes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 405 361 572</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 623</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 144 601 205 134 269 563 266 583 556 138 246 593 580 270 287 109 281 605 588 606 602 293 278 116 302 303 158 136 127 130 139 123 101 115 111 142 133 316 247 291 312 600 304 367 249 267 141 296 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 316 293 304 247 138 246 302 266 367 287 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\App\MainApp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 14 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 661</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 477 138 144 104 113 249 134 116 278 469 223 124 140 242 175 256 690 133 246 422 137 109 304 143 103 106 107 117 276 295 261 227 215 255 228 286 333 692 447 266 293 141 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 691 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 691 692 690 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Thonv\Midware\Uart_V2\Uart_Transmitter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 688 686 9</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 676</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 138 144 104 113 249 134 116 278 469 223 124 140 242 175 256 141 447 374 133 246 422 137 109 304 143 103 106 107 117 276 295 261 227 215 255 228 286 424 470 689 690 266 293 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 477 333 269 308 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 689 374 424 470 269 270 690</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\address_filter_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 543 463 519</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 617</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 601 175 312 249 140 138 144 124 242 247 278 246 367 267 104 113 469 114 223 270 320 437 600 304 302 266 141 296 143 103 106 107 117 276 295 261 227 215 255 228 286 293 287 291 137 134 116 109 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 437</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\ble_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 561 596 578</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 608</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 593 137 246 580 138 269 583 563 556 205 247 109 601 281 605 588 606 602 270 320 291 278 134 116 266 303 302 158 136 127 130 139 123 101 115 111 142 133 293 287 581 437 312 600 304 249 367 267 141 296 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 320 138 246 287 247 302 266 367 581 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270 437</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\packet_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 511</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 393 421 157</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 670</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302 103 215 144 276 286 291 141 107 261 255 228 303 601 600 304 138 246 278 266 296 143 106 117 295 227 320 247 312 249 270 367 267 104 113 124 469 140 114 242 223 175 256 293 287 353 305 137 134 116 109 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 293 304 320 138 246 287 303 269 270 353 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 305</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_ci\info_ci.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 509</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 398 416 574</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 660</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267 223 138 304 469 144 109 246 367 104 113 114 270 302 137 249 124 140 242 175 256 287 278 134 116 601 266 141 296 143 103 106 107 117 276 295 261 227 215 255 228 286 320 247 291 600 303 269 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 144 601 137 116 109 134 600 278 304 320 138 246 287 247 302 266 367 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flex-bookkeeping.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 448 428 232</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 654</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227 143 422 144 117 286 133 137 106 295 486 457 246 278 109 304 103 107 276 261 215 255 228 470 419 269 249 134 116 104 113 124 469 140 114 242 223 175 256 138 308 141 485 266 293 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 407 462 447 477 333 270 424 425 472 471 480</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 269 270 457 424 470 407 419 425 486 472 462 471 485 480</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rail_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 468</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357 350 105</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 674</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 115 136 123 142 133 141 158 127 139 101 111 144 134 116 246 605 593 588 583 606 580 602 563 556 138 205 137 109 314 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 601 600 286 367 333 302 266 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 333 141 104 158 138 144 601 137 116 109 134 600 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 246 314 302 266 278 367</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flex-events.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262 387 555</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 645</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 256 433 140 296 124 242 286 589 385 427 249 144 134 116 278 104 113 469 114 223 332 590 406 133 246 422 137 109 304 143 103 106 107 117 276 295 261 227 215 255 228 308 141 373 397 430 267 461 366 456 584 300 447 424 266 138 293 465 400 479 601 600 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 270 337 325 355 552 327 383 446 351 414 467 604 449 409 477 333 470 269 391 359 348 358 339 585 211 374 362 364 378 440 484 396 399 431 281 482 434 336 354 290 483 566 365</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447 133 144 266 601 137 116 109 134 600 278 138 246 293 304 141 104 158 228 286 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 422 465 477 400 308 333 479 424 470 269 270 427 391 446 440 484 396 399 281 430 431 267 296 482 433 461 434 366 336 373 337 359 325 348 358 354 351 355 339 332 585 552 211 397 456 584 483 467 604 590 566 449 589 290 414 374 327 362 364 300 383 378 409 365 385 406</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 476 508 503</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 609</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 142 269 123 309 144 137 246 130 115 133 326 278 347 313 109 601 266 158 127 139 101 111 317 460 134 116 367 138 141 296 605 593 588 583 606 580 602 563 556 205 281 343 310 297 316 247 267 282 322 291 300 312 600 302 104 143 113 103 124 106 469 107 140 117 114 276 242 295 223 261 175 227 215 255 228 256 286 315 273 333 303 340 321 270 301 318 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 144 601 137 116 109 134 600 278 312 247 138 246 302 266 367 317 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 281 296 267 347 343 297 326 321 300 269 270 309 310 282 322 315 316 301 273 318 313 308 333 291 303 460</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mode_helpers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 514</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 341 363 221</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 684</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 295 286 246 106 303 296 143 117 227 270 600 601 367 302 141 103 107 276 261 215 255 228 138 287 278 269 104 113 124 469 140 114 242 223 175 256 291 137 134 116 109 266 249 267 281 158 605 136 593 127 588 130 583 139 606 123 580 101 602 115 563 111 142 556 205 133 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 247 138 144 601 137 116 109 134 600 246 302 266 278 367 287 291 267 141 104 158 228 286 133 205 256 143 605 113 136 103 593 124 127 106 588 469 130 107 583 140 139 117 606 114 123 276 580 242 101 295 602 223 115 261 563 175 111 227 142 215 255 556 296 281 303 269 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\build\efr32\railtest_efr32.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 264 243</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 493</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 196 523 519 503 545 572 565 569 578 554 559 524 553 522 530 560 531 571 542 577 579 575 536 534 538 557 212 532 527 185 208 551 576 597 214 230 591 570 232 488 539 555 184 222 210 197 186 592 199 207 183 582 202 603 209 218 10 201 574 6 533 11 221 157 112 36 105 152 129 151 99 132 100 506 125 110 4 7 9 102 135 250 240 182</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
